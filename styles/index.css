@@ -1,5 +1,9 @@
+
+
+
 body{
     --dark-background-color: #121212;
+    --dark-low-elevation: hsla(0, 100%, 100%, 0.05);
     --dark-normal-elevation: hsla(0, 100%, 100%, 0.05);
     --dark-high-elevation: #323232;
     --dark-primary-color: #80d4ff;
@@ -22,6 +26,8 @@ body{
     font-family: 'Roboto','sans-serif';
     background-color: var(--dark-background-color);
     color: var(--dark-text-color);
+    margin:0;
+    padding:0;
 
 }
 
@@ -49,7 +55,7 @@ body{
     justify-content: center;
     column-count: 4;
     gap: 50px;
-    padding: 100px;
+    padding: 20px;
 
 }
 
@@ -80,9 +86,53 @@ body{
   
 
 .nav a.active {
-    background-color: #04AA6D;
+    background-color: #ffac80;
     color: white;
 }
+
+.searchbar.fa{
+    background-color: var(--dark-normal-elevation);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: 50px;
+    font-size: 20px;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 20px;
+    color: #FFF; 
+    display: none;
+
+}
+
+.searchContainer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.searchIcon{
+
+    float:right;
+    padding: 16px;
+
+}
+.searchIcon:hover{
+
+    cursor: pointer;
+}
+
+.searchbar.fa::placeholder{
+    color: var(--dark-high-elevation);
+    letter-spacing: 4px;
+}
+
+
+
 
 .video-play-button {
     position: relative;

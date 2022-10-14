@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <script type="module" src="js/script.js"></script>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css" />
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/bf85678e21.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js">search()</script>
 
 </head>
 <body>
     <div class="nav" id="topNav">
-        <a href="#news" class="link active">News</a>
-        <a href="#home" class="link">Home</a>
+        <a href="#home" class="link active">Accueil</a>
+        <a href="#news" class="link">News</a>
+        <i class="fa-solid fa-magnifying-glass fa-xl searchIcon" id='searchIcon'></i>
+        
+    </div>
+    <div class="searchContainer">
+        
+        <input type="search" class="searchbar fa" id="searchbar" onkeyup="search()" placeholder='&#xf002; Rechercher';>
     </div>
     
     <div class="projectContainer">
-        <div class="test">
+        <div class="test searchable">
             <p class="dactylonline-text">DactylOnline</p>
-            <a id="play-video" class="video-play-button" href="#">
+            <a id="play-video" class="video-play-button" href="/DactylOnline">
                 <span></span>
             </a>
         </div>
+
+
     </div>
 
 
