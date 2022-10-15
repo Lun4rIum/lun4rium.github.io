@@ -48,3 +48,11 @@ function search(){
   
 };
 
+
+
+var modeButton = document.getElementById("modeIcon");
+
+  modeButton.addEventListener("click", function toggleSearchBar() {
+    document.body.classList.toggle('light-mode');
+    
+});
