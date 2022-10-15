@@ -71,6 +71,7 @@ body.light-mode{
     column-count: 4;
     gap: 50px;
     padding: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -270,4 +271,21 @@ body.light-mode{
 }
 }
 
+
+/* Page about */
+
+.media-icon{
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.mediaContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-count: 4;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
