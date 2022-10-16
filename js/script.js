@@ -43,7 +43,15 @@ function search(){
 
     } else {
       elements[i].style.display = "none";
-    }
+      
+    };
+    
+    if (txtValue.toUpperCase().indexOf(filter) == -1) {
+      document.getElementById("noResult").style = "display: unset";
+    } else{
+      document.getElementById("noResult").style = "display: none";
+    };
+
   }
   
 };

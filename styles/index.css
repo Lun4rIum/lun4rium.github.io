@@ -26,6 +26,7 @@ body{
     color: var(--dark-text-color);
     margin:0;
     padding:0;
+    text-align: center;
 }
 
 body.light-mode{
@@ -63,6 +64,12 @@ body.light-mode{
 
 }
 
+.noResult{
+    position:relative;
+    display:none;
+    color: var(--dark-high-elevation);
+    
+}
 
 .projectContainer{
     display: flex;
