@@ -109,17 +109,12 @@ body.light-mode{
   
 
 .nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #ffac80;
+    color: white;
 }
   
 .nav i{
     color: #FFF;
-}
-
-.nav a.active {
-    background-color: #ffac80;
-    color: white;
 }
 
 .searchbar.fa{
